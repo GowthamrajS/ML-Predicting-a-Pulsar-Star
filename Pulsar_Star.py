@@ -11,7 +11,7 @@ import pandas as pd
 import seaborn as sea
 import missingno
 
-dataset = pd.read_csv("star.csv")
+x = pd.read_csv("star.csv")
 
 y = x["target_class"]
 
