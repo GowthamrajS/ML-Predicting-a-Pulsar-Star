@@ -19,9 +19,9 @@ x= x.drop(["target_class"],axis =1)
 
 x.isnull().sum().plot(kind ="bar")
 
-#sea.heatmap(x.corr(),annot = True)
+sea.heatmap(x.corr(),annot = True)
 
-#sea.pairplot(x)
+sea.pairplot(x)
 
 sea.countplot(y)
 
